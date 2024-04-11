@@ -1,0 +1,20 @@
+{
+  "name": "climonitor",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "install-build": "npm install && npm run build",
+    "build": "tsc"
+  },
+  "author": "Renan Caetano",
+  "bin": {
+    "startCli": "dist/cli.js"
+  },
+  "dependencies": {
+    "os-utils": "^0.0.14"
+  },
+  "devDependencies": {
+    "@types/os-utils": "^0.0.4",
+    "typescript": "^5.4.4"
+  }
+}
